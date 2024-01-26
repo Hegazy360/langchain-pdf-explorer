@@ -2,7 +2,7 @@
 
 This project is a Streamlit application that allows users to upload a PDF, ask a question about the content of the PDF, and get an answer based on the content of the PDF. The application uses OpenAI to generate embeddings for the text in the PDF and to answer the user's question.
 
-<img width="1433" alt="Screenshot 2024-01-26 at 14 20 13" src="https://github.com/Hegazy360/langchain-pdf-explorer/assets/13141632/d526c674-8340-483d-87be-b404e1aaa3a4">
+<img width="1000" alt="Screenshot 2024-01-26 at 14 20 13" src="https://github.com/Hegazy360/langchain-pdf-explorer/assets/13141632/d526c674-8340-483d-87be-b404e1aaa3a4">
 
 
 
