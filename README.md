@@ -17,9 +17,10 @@ The project uses the following Python libraries:
 
 ## How to Run
 
-1. Install the dependencies using `pip install -r requirements.txt`
-2. Set the necessary environment variables using a `.env` file.
-3. Run the Streamlit application using the command `streamlit run app.py`.
+1. Use python venv `python -m venv .venv` & `source .venv/bin/activate`
+2. Install the dependencies `pip install -r requirements.txt`
+3. Set the necessary environment variables using a `.env` file.
+4. Run the Streamlit application using the command `streamlit run app.py`.
 
 ## Code Structure
 
