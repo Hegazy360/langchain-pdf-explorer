@@ -10,7 +10,6 @@ This project is a Streamlit application that allows users to upload a PDF, ask a
 
 The project uses the following Python libraries:
 
-- dotenv
 - streamlit
 - PyPDF2
 - langchain
