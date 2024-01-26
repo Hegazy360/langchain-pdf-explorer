@@ -1,0 +1,27 @@
+# Ask Your PDF
+
+This project is a Streamlit application that allows users to upload a PDF, ask a question about the content of the PDF, and get an answer based on the content of the PDF. The application uses OpenAI to generate embeddings for the text in the PDF and to answer the user's question.
+
+## Dependencies
+
+The project uses the following Python libraries:
+
+- dotenv: To load environment variables.
+- streamlit: To create the web application.
+- PyPDF2: To read PDF files.
+- langchain: To split the text into chunks, generate embeddings, and answer questions.
+- langchain_community: To store the embeddings and handle callbacks.
+
+## How to Run
+
+1. Install the dependencies using `pip install -r requirements.txt`
+2. Set the necessary environment variables using a `.env` file.
+3. Run the Streamlit application using the command `streamlit run app.py`.
+
+## Code Structure
+
+The `app.py` file contains the main function of the application. It first loads the environment variables, then sets up the Streamlit application. It allows the user to upload a PDF file, then reads the file and extracts the text from it. The text is split into chunks, and embeddings are generated for each chunk. The user can then ask a question about the PDF, and the application will search for similar documents in the knowledge base and use a question answering chain to generate a response.
+
+## Future Work
+
+Future improvements could include better handling of PDF files with complex layouts, support for multiple languages, and improvements to the question answering algorithm.
