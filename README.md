@@ -10,11 +10,11 @@ This project is a Streamlit application that allows users to upload a PDF, ask a
 
 The project uses the following Python libraries:
 
-- dotenv: To load environment variables.
-- streamlit: To create the web application.
-- PyPDF2: To read PDF files.
-- langchain: To split the text into chunks, generate embeddings, and answer questions.
-- langchain_community: To store the embeddings and handle callbacks.
+- dotenv
+- streamlit
+- PyPDF2
+- langchain
+- OpenAI LLM
 
 ## How to Run
 
